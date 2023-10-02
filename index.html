@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+    <section class="controlPlane">
+        <p class="banner">Library</p>
+        <button class="placeBook"> Add a book</button>
+    </section>
+    <div class="bookshelf"> </div>
+    <dialog class="recordModal">
+        <p>Enter book record:</p>
+        <form class="modalForm">
+            <label for="bookTitle">Title</label>
+            <input type="text" id="bookTitle" name="bookTitle">
+            <label for="author">Author</label>
+            <input type="text" id="author" name="author">
+            <label for="pages">Pages</label>
+            <input type="text" id="pages" name="pages">
+            <label for="read">Read Book?</label>
+            <input type="checkbox" id="read" name="read">
+            <button class="submit" autofocus>Submit</button>
+        </form>
+        
+    </dialog>
+</body>
+<script src="app.js"></script>
+</html>
